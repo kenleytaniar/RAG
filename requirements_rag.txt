@@ -1,0 +1,12 @@
+langchain
+sentence-transformers
+faiss-cpu
+transformers
+torch
+pypdf
+tqdm
+python-dotenv
+sentencepiece
+streamlit
+
+
