@@ -1,12 +1,13 @@
-langchain
-sentence-transformers
-faiss-cpu
-transformers
-torch
-pypdf
-tqdm
-python-dotenv
-sentencepiece
-streamlit
+streamlit==1.36.0
+langchain==0.1.20
+sentence-transformers==2.2.2
+transformers==4.30.2
 
+torch==2.0.0+cpu
+-f https://download.pytorch.org/whl/cpu
 
+faiss-cpu==1.7.4
+pypdf==4.2.0
+tqdm==4.66.2
+python-dotenv==1.0.1
+sentencepiece==0.1.99
