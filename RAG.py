@@ -8,7 +8,7 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 from pypdf import PdfReader
 import faiss
 
-EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+EMBED_MODEL = "sentence-transformers/paraphrase-MiniLM-L3-v2"
 LLM_MODEL = "google/flan-t5-base"
 CHUNK_SIZE_WORDS = 300
 CHUNK_OVERLAP = 50
@@ -103,3 +103,4 @@ if uploaded_file is not None:
 
             st.subheader("💡 Answer")
             st.write(answer)
+
